@@ -1,0 +1,133 @@
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 84px;
+}
+footer{
+    bottom: 0;
+    width: 100%;
+    font-family: 'Karla', sans-serif;
+    font-style: Bold;
+    text-decoration: none;
+    text-align: center;
+    color:#D3D3D3;
+}
+.shippingParagraph{
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    font-style: Bold;
+    text-align: center;
+    color:#D3D3D3;
+}
+#To_Input{
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    font-style: Bold;
+    padding: 50px;
+    color:#D3D3D3;
+    text-align: center;
+    background-color:#212121;
+    border-width: 10px;
+    border-style: double;
+}
+#Description{
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    font-style: Bold;
+    margin-left: 16em;
+    margin-top: 15em;
+    margin-bottom: 16em;
+    max-width: 30em;
+    text-decoration: none;
+    text-align: center;
+    color:#D3D3D3;
+}
+.AboutUsSection, .Products{
+    background-color: #6D9775; 
+}
+#AboutUs{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    max-width: 30em;
+    font-family: 'Karla', sans-serif;
+    font-style: Bold;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #D3D3D3;   
+    float: left;
+}
+#WhatWeServe{
+    font-family: 'Karla', sans-serif;
+    font-size: 19px;
+    font-style: Bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    margin-left: 16em;
+    max-width: 40em;
+    text-decoration: none;
+    text-align: center;
+    color:#D3D3D3;
+}
+#manbread{
+    margin-top: 100px; 
+    margin-bottom: 40px;
+    margin-left: 40px; 
+    width: 500px;
+    border-color: #D3D3D3;
+    border-style: double;
+    border-width: 10px;
+}
+ul.navbar {
+    list-style-type: none;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    height: 15%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121 ; /* Background color of the navigation bar */
+}
+/* Style for the individual navigation items */
+ul.navbar li {
+    display: inline;
+    padding: 10px 20px;
+
+}
+/* Style for the links */
+ul.navbar li a {
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    font-style: Bold;
+    text-decoration: none;
+    color:#D3D3D3; /* Text color of the links */
+}
+
+/* Style for hover effect on links */
+ul.navbar li a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
+@media screen and (max-width: 768px){
+    #Description{
+        font-size: 17px;
+        margin-left: 15em;
+        margin-top: 6em;
+        max-width: 30em;
+    }
+}
+@media screen and (max-width: 1024px){
+    #Description{
+        font-size: 17px;
+        margin-left: 12em;
+        margin-top: 6em;
+        max-width: 30em;
+    }
+}
